@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background-image: url('https://i.pinimg.com/originals/c2/54/0c/c2540cec12c889806d17cca722e76ebb.jpg');
+  background-size: cover;
+  animation: liveBackground 10s linear infinite;
+}
+.img{
+  width: 100px;
+  justify-items: left;
+  border: 1px white solid;
+  border-radius: 13px;
+  position: fixed;
+  left: 0;
+}
+.ea{
+  color: white;
+  font-size: 70px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-transform: capitalize;
+
+}
+.nav{
+  border: none;
+  display: flex;
+  justify-content: space-around;
+}
